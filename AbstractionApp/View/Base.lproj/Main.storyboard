@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--SwiftViewController-->
+        <!--Swift Code-->
         <scene sceneID="Mwh-Mh-Mcg">
             <objects>
-                <viewController title="SwiftViewController" id="wrV-pt-Rs6" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SwiftViewController" title="Swift Code" id="wrV-pt-Rs6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qcq-jf-baQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,6 +21,14 @@
                                 <rect key="frame" x="67" y="141" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1S-am-YFH">
+                                <rect key="frame" x="67" y="298" width="214" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Swift code if more abstract than block code. Swift uses Math that block code does not use. Swift is less abstract than Byte code.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Dlm-cT-p3i"/>
@@ -28,12 +36,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pr5-RR-84p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1092" y="735"/>
+            <point key="canvasLocation" x="-1092" y="734.48275862068976"/>
         </scene>
-        <!--BlockViewController-->
+        <!--Block Code-->
         <scene sceneID="gNk-dn-Dma">
             <objects>
-                <viewController title="BlockViewController" id="KdN-1V-K7E" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BlockViewController" title="Block Code" id="KdN-1V-K7E" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nBS-mp-gn2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,6 +50,14 @@
                                 <rect key="frame" x="67" y="133" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jmj-EP-bWd">
+                                <rect key="frame" x="8" y="298" width="358" height="204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Block Code is more abstract than just talking. In block code you have to put different pieces together but in real life you dont have to do that.Blocl code is less abstract than Binary.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.9685534812675991" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="M6e-x5-OPf"/>
@@ -49,12 +65,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hHP-gR-RBd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-462" y="735"/>
+            <point key="canvasLocation" x="-463.19999999999999" y="734.48275862068976"/>
         </scene>
-        <!--ByteCodeViewController-->
+        <!--Byte Code-->
         <scene sceneID="RJg-vV-tlW">
             <objects>
-                <viewController title="ByteCodeViewController" id="CHe-pD-iuM" sceneMemberID="viewController">
+                <viewController title="Byte Code" id="CHe-pD-iuM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QRR-yI-Nzf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -63,6 +79,14 @@
                                 <rect key="frame" x="67" y="133" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAv-c3-ENg">
+                                <rect key="frame" x="61" y="303" width="220" height="203"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The Byte Code is more abstract than Swift. You can not see what you are working with in byte code.Byte code is less abstract than Binart.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.019546941329736112" green="1" blue="0.96346211948956528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="pyS-aR-twt"/>
@@ -70,12 +94,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hLt-4x-xhT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="164" y="735"/>
+            <point key="canvasLocation" x="164" y="734.48275862068976"/>
         </scene>
-        <!--BinaryViewController-->
+        <!--Binary-->
         <scene sceneID="Z2g-BE-4xW">
             <objects>
-                <viewController title="BinaryViewController" id="vRH-v0-epb" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BinaryViewController" title="Binary" id="vRH-v0-epb" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cSx-Sx-zbX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,6 +108,14 @@
                                 <rect key="frame" x="67" y="138" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezo-2l-Tq4">
+                                <rect key="frame" x="59" y="296" width="257" height="223"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Binary is more abstract than Logical Gates. Binary is just ones and zeros and more complica ed than  gates.Binary is not less abstract than anything.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.60985147112332161" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="DXQ-IN-zlz"/>
@@ -91,12 +123,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ie6-ts-Svo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="801" y="734"/>
+            <point key="canvasLocation" x="792.79999999999995" y="734.48275862068976"/>
         </scene>
-        <!--LogicalGareViewController-->
+        <!--Logical Gate-->
         <scene sceneID="4Rs-Q1-sJ8">
             <objects>
-                <viewController title="LogicalGareViewController" id="4er-zl-kCF" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LogicalGateViewController" title="Logical Gate" id="4er-zl-kCF" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Aq-c5-mgC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -105,6 +137,14 @@
                                 <rect key="frame" x="67" y="136" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fex-fn-qNZ">
+                                <rect key="frame" x="57" y="302" width="250" height="224"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Logical gates are more abstract than block code. Logical gates are physical objects that connect together.  Logical gates are less abstract than Binary.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.60985147112332139" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="mm9-fI-C09"/>
@@ -112,12 +152,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UQ0-Wk-80n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1414" y="736"/>
+            <point key="canvasLocation" x="1413.5999999999999" y="735.38230884557731"/>
         </scene>
         <!--Abstraction View Controller-->
         <scene sceneID="7F8-mC-T4W">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="gap-Bz-UO7" customClass="AbstractionViewController" customModule="AbstractionsApp" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="none" id="gap-Bz-UO7" customClass="AbstractionViewController" customModule="AbstractionsApp" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fg6-oO-6qG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-9" y="55"/>
