@@ -8,19 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		E732C4E421B6D3CA00D2F893 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E732C4E321B6D3CA00D2F893 /* AppDelegate.swift */; };
-		E732C4E621B6D3CA00D2F893 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E732C4E521B6D3CA00D2F893 /* ViewController.swift */; };
+		E732C4E621B6D3CA00D2F893 /* UIPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E732C4E521B6D3CA00D2F893 /* UIPageViewController.swift */; };
 		E732C4E921B6D3CA00D2F893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E732C4E721B6D3CA00D2F893 /* Main.storyboard */; };
 		E732C4EB21B6D3DA00D2F893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E732C4EA21B6D3DA00D2F893 /* Assets.xcassets */; };
-		E732C4EE21B6D3DA00D2F893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E732C4EC21B6D3DA00D2F893 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E732C4E021B6D3C900D2F893 /* ExtractionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtractionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E732C4E021B6D3C900D2F893 /* AbstractionsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbstractionsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E732C4E321B6D3CA00D2F893 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E732C4E521B6D3CA00D2F893 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E732C4E521B6D3CA00D2F893 /* UIPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageViewController.swift; sourceTree = "<group>"; };
 		E732C4E821B6D3CA00D2F893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E732C4EA21B6D3DA00D2F893 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E732C4ED21B6D3DA00D2F893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E732C4EF21B6D3DA00D2F893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,7 +36,7 @@
 		E732C4D721B6D3C900D2F893 = {
 			isa = PBXGroup;
 			children = (
-				E732C4E221B6D3C900D2F893 /* ExtractionApp */,
+				E732C4E221B6D3C900D2F893 /* AbstractionApp */,
 				E732C4E121B6D3C900D2F893 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,19 +44,19 @@
 		E732C4E121B6D3C900D2F893 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E732C4E021B6D3C900D2F893 /* ExtractionApp.app */,
+				E732C4E021B6D3C900D2F893 /* AbstractionsApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E732C4E221B6D3C900D2F893 /* ExtractionApp */ = {
+		E732C4E221B6D3C900D2F893 /* AbstractionApp */ = {
 			isa = PBXGroup;
 			children = (
 				E732C4F521B6D3FA00D2F893 /* Rescources */,
-				E732C4F721B6D42A00D2F893 /* ExtractionAppViewController */,
+				E732C4F721B6D42A00D2F893 /* Controller */,
 				E732C4F621B6D41A00D2F893 /* View */,
 			);
-			path = ExtractionApp;
+			path = AbstractionApp;
 			sourceTree = "<group>";
 		};
 		E732C4F521B6D3FA00D2F893 /* Rescources */ = {
@@ -75,25 +73,24 @@
 			isa = PBXGroup;
 			children = (
 				E732C4E721B6D3CA00D2F893 /* Main.storyboard */,
-				E732C4EC21B6D3DA00D2F893 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		E732C4F721B6D42A00D2F893 /* ExtractionAppViewController */ = {
+		E732C4F721B6D42A00D2F893 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E732C4E521B6D3CA00D2F893 /* ViewController.swift */,
+				E732C4E521B6D3CA00D2F893 /* UIPageViewController.swift */,
 			);
-			path = ExtractionAppViewController;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E732C4DF21B6D3C900D2F893 /* ExtractionApp */ = {
+		E732C4DF21B6D3C900D2F893 /* AbstractionsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E732C4F221B6D3DA00D2F893 /* Build configuration list for PBXNativeTarget "ExtractionApp" */;
+			buildConfigurationList = E732C4F221B6D3DA00D2F893 /* Build configuration list for PBXNativeTarget "AbstractionsApp" */;
 			buildPhases = (
 				E732C4DC21B6D3C900D2F893 /* Sources */,
 				E732C4DD21B6D3C900D2F893 /* Frameworks */,
@@ -103,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = ExtractionApp;
+			name = AbstractionsApp;
 			productName = ExtractionApp;
-			productReference = E732C4E021B6D3C900D2F893 /* ExtractionApp.app */;
+			productReference = E732C4E021B6D3C900D2F893 /* AbstractionsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E732C4DB21B6D3C900D2F893 /* Build configuration list for PBXProject "ExtractionApp" */;
+			buildConfigurationList = E732C4DB21B6D3C900D2F893 /* Build configuration list for PBXProject "AbstractionsApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E732C4DF21B6D3C900D2F893 /* ExtractionApp */,
+				E732C4DF21B6D3C900D2F893 /* AbstractionsApp */,
 			);
 		};
 /* End PBXProject section */
@@ -146,7 +143,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E732C4EE21B6D3DA00D2F893 /* LaunchScreen.storyboard in Resources */,
 				E732C4EB21B6D3DA00D2F893 /* Assets.xcassets in Resources */,
 				E732C4E921B6D3CA00D2F893 /* Main.storyboard in Resources */,
 			);
@@ -159,7 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E732C4E621B6D3CA00D2F893 /* ViewController.swift in Sources */,
+				E732C4E621B6D3CA00D2F893 /* UIPageViewController.swift in Sources */,
 				E732C4E421B6D3CA00D2F893 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,14 +169,6 @@
 				E732C4E821B6D3CA00D2F893 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E732C4EC21B6D3DA00D2F893 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E732C4ED21B6D3DA00D2F893 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -339,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E732C4DB21B6D3C900D2F893 /* Build configuration list for PBXProject "ExtractionApp" */ = {
+		E732C4DB21B6D3C900D2F893 /* Build configuration list for PBXProject "AbstractionsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E732C4F021B6D3DA00D2F893 /* Debug */,
@@ -348,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E732C4F221B6D3DA00D2F893 /* Build configuration list for PBXNativeTarget "ExtractionApp" */ = {
+		E732C4F221B6D3DA00D2F893 /* Build configuration list for PBXNativeTarget "AbstractionsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E732C4F321B6D3DA00D2F893 /* Debug */,

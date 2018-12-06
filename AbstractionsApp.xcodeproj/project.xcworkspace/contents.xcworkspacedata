@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ExtractionApp.xcodeproj">
+      location = "self:/Users/ctol0033/Documents/SwiftApps/ExtractionApp/AbstractionsApp.xcodeproj">
    </FileRef>
 </Workspace>
