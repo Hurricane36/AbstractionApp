@@ -5,8 +5,115 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--SwiftViewController-->
+        <scene sceneID="Mwh-Mh-Mcg">
+            <objects>
+                <viewController title="SwiftViewController" id="wrV-pt-Rs6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qcq-jf-baQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Xcode" translatesAutoresizingMaskIntoConstraints="NO" id="uWr-hm-G5k">
+                                <rect key="frame" x="67" y="141" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Dlm-cT-p3i"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pr5-RR-84p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1092" y="735"/>
+        </scene>
+        <!--BlockViewController-->
+        <scene sceneID="gNk-dn-Dma">
+            <objects>
+                <viewController title="BlockViewController" id="KdN-1V-K7E" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nBS-mp-gn2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Block code" translatesAutoresizingMaskIntoConstraints="NO" id="k5c-Le-ctv">
+                                <rect key="frame" x="67" y="133" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9685534812675991" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="M6e-x5-OPf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hHP-gR-RBd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-462" y="735"/>
+        </scene>
+        <!--ByteCodeViewController-->
+        <scene sceneID="RJg-vV-tlW">
+            <objects>
+                <viewController title="ByteCodeViewController" id="CHe-pD-iuM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QRR-yI-Nzf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Byte code" translatesAutoresizingMaskIntoConstraints="NO" id="WGJ-fX-gzi">
+                                <rect key="frame" x="67" y="133" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.019546941329736112" green="1" blue="0.96346211948956528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="pyS-aR-twt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hLt-4x-xhT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="164" y="735"/>
+        </scene>
+        <!--BinaryViewController-->
+        <scene sceneID="Z2g-BE-4xW">
+            <objects>
+                <viewController title="BinaryViewController" id="vRH-v0-epb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cSx-Sx-zbX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Binary" translatesAutoresizingMaskIntoConstraints="NO" id="o8Z-67-bbn">
+                                <rect key="frame" x="67" y="138" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.60985147112332161" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="DXQ-IN-zlz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ie6-ts-Svo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="801" y="734"/>
+        </scene>
+        <!--LogicalGareViewController-->
+        <scene sceneID="4Rs-Q1-sJ8">
+            <objects>
+                <viewController title="LogicalGareViewController" id="4er-zl-kCF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Aq-c5-mgC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LogicalGates" translatesAutoresizingMaskIntoConstraints="NO" id="wWE-2e-G2z">
+                                <rect key="frame" x="67" y="136" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.60985147112332139" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="mm9-fI-C09"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UQ0-Wk-80n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1414" y="736"/>
+        </scene>
         <!--Abstraction View Controller-->
         <scene sceneID="7F8-mC-T4W">
             <objects>
@@ -16,4 +123,11 @@
             <point key="canvasLocation" x="-9" y="55"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Binary" width="1000" height="1080"/>
+        <image name="Block code" width="1200" height="630"/>
+        <image name="Byte code" width="1280" height="720"/>
+        <image name="LogicalGates" width="539" height="328"/>
+        <image name="Xcode" width="637" height="159"/>
+    </resources>
 </document>
